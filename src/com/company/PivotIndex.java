@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.Arrays;
-
 // Given an array of integers nums, calculate the pivot index of this array.
 //
 //The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index's right.
@@ -44,7 +42,7 @@ public class PivotIndex {
     public static int pivotIndex(int[] nums) {
         int sum = 0, leftSum = 0;
 
-        for (int i = 0; i < nums.length - 1; i++) {
+        for (int i = 0; i <= nums.length - 1; i++) {
             sum += nums[i];
         }
 
