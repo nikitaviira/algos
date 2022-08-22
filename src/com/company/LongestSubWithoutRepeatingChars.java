@@ -36,11 +36,11 @@ public class LongestSubWithoutRepeatingChars {
     Set<Character> set = new HashSet<>();
     int max = 0;
     int leftPointer = 0;
-    int right = 0;
+    int rightPointer = 0;
 
-    while (right < s.length()) {
-      if (!set.contains(s.charAt(right))) {
-        set.add(s.charAt(right++));
+    while (rightPointer < s.length()) {
+      if (!set.contains(s.charAt(rightPointer))) {
+        set.add(s.charAt(rightPointer++));
         max = Math.max(set.size(), max);
       }
       else set.remove(s.charAt(leftPointer++));
