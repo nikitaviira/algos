@@ -30,6 +30,8 @@ public class LongestSubWithoutRepeatingChars {
     System.out.println(lengthOfLongestSubstring("dvdf"));
   }
 
+
+  // Sliding window
   public static int lengthOfLongestSubstring(String s) {
     if (s.length() <= 1) return s.length();
 
