@@ -34,13 +34,14 @@ public class RottingOranges {
     Queue<int[]> rottenOranges = new LinkedList();
     int minutes = 0;
 
-    // Find all rotten ones
+    // Find all rotten oranges
     for (int y = 0; y < grid.length; y++) {
       for (int x = 0; x < grid[0].length; x++) {
         if (grid[y][x] == 2) rottenOranges.add(new int[] {y, x});
       }
     }
 
+    // Breadth-first search (queue, while not empty, node levels)
     while (!rottenOranges.isEmpty()) {
       int size = rottenOranges.size();
       for (int i = 0; i < size; i++) {
@@ -65,7 +66,7 @@ public class RottingOranges {
       if (!rottenOranges.isEmpty()) minutes++;
     }
 
-    // Check if any 1's are left after full traversal of the queue
+    // Check if any non-rotten oranges are left after full traversal of the queue
     for (int[] ints : grid) {
       for (int x = 0; x < grid[0].length; x++) {
         if (ints[x] == 1) return -1;
