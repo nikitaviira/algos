@@ -1,6 +1,8 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 // https://leetcode.com/problems/invert-binary-tree/
@@ -30,8 +32,11 @@ public class InvertBinaryTree {
         TreeNode temp = queue.poll();
 
         TreeNode left = temp.left;
+        temp.left = temp.right;
+        temp.right = left;
+
         if (temp.left != null) queue.add(temp.left = temp.right);
-        if (temp.right != null) queue.add(temp.right = left);
+        if (temp.right != null) queue.add(temp.right);
       }
     }
 
