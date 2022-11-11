@@ -33,7 +33,7 @@ public class InvertBinaryTree {
         temp.left = temp.right;
         temp.right = left;
 
-        if (temp.left != null) queue.add(temp.left = temp.right);
+        if (temp.left != null) queue.add(temp.left);
         if (temp.right != null) queue.add(temp.right);
       }
     }
