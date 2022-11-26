@@ -9,23 +9,24 @@ package com.company;
 //Input: head = [1,2]
 //Output: false
 
-import java.util.LinkedList;
 public class PalindromeLinkedList {
   public static void main(String[] args) {
-    System.out.println(isPalindrome(new ListNode(1, new ListNode(2))));
+    System.out.println(isPalindrome(new ListNode(1)));
   }
 
   public static boolean isPalindrome(ListNode head) {
-    var resultStr = new StringBuilder(String.valueOf(head.val));
-    var curr = head;
-
-    while (curr.next != null) {
-      resultStr.append(curr.next.val);
-      curr = curr.next;
+    int[] arr = new int[100_000];
+    if (head.next == null) return true;
+    int len = 0;
+    while (head != null) {
+      arr[len++] = head.val;
+      head = head.next;
     }
 
-    var reversed = new StringBuilder(resultStr).reverse();
-    return resultStr.compareTo(reversed) == 0;
+    for (int i = 0; i < len / 2; i++) {
+      if (arr[i] != arr[len - i - 1]) return false;
+    }
+    return true;
   }
 
   public static class ListNode {
