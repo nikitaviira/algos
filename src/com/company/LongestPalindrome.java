@@ -6,7 +6,7 @@ package com.company;
 //
 //Input: s = "abccccdd"
 //Output: 7
-//Explanation: One longest palindrome that can be built is "dccbbbccd", whose length is 7.
+//Explanation: One longest palindrome that can be built is "dccaccd", whose length is 7.
 //Example 2:
 //
 //Input: s = "a"
@@ -19,7 +19,7 @@ import java.util.Map;
 // https://leetcode.com/problems/longest-palindrome/
 public class LongestPalindrome {
   public static void main(String[] args) {
-    System.out.println(longestPalindrome("bb"));
+    System.out.println(longestPalindrome("abccccab"));
   }
 
   public static int longestPalindrome(String s) {
@@ -31,7 +31,7 @@ public class LongestPalindrome {
     int sum = 0;
     boolean hasUneven = false;
     for (int entry : count.values()) {
-      if (entry % 2 == 0 && !hasUneven) hasUneven = true;
+      if (entry % 2 != 0 && !hasUneven) hasUneven = true;
       sum += entry % 2 == 0 ? entry : entry - 1;
     }
 
