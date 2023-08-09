@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1db5141b-a2c5-4465-ba41-6854b2a16c1d" name="Changes" comment="add LengthOfLastWord" />
+    <list id="73c65a70-0f25-4cf7-97f2-9c66fbc0ea0e" name="igore" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/company/SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SpiralMatrix.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="ProjectId" id="2T4UASlQzGIuVNLhs022gCu12lk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "16.20.2",
+    "javascript.nodejs.core.library.typings.version": "16.18.40",
+    "last_opened_file_path": "/Users/viiranikita/IdeaProjects/algos/src/com/company",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/viiranikita/IdeaProjects/algos/src/com/company/node_modules/jest",
+    "nodejs_interpreter_path": "/Users/viiranikita/.nvm/versions/node/v16.20.2/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/company" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.description">
+    <configuration name="adds 1 + 2 to equal 3" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/src/com/company/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/src/com/company" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/com/company/MinimumSizeSubarraySum.test.js" />
+      <test-names>
+        <test-name value="adds 1 + 2 to equal 3" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="description" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/src/com/company/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/src/com/company" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/com/company/MinimumSizeSubarraySum.test.js" />
+      <test-names>
+        <test-name value="description" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test 1" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/src/com/company/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/src/com/company" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/com/company/MinimumSizeSubarraySum.test.js" />
+      <test-names>
+        <test-name value="test 1" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="LongestCommonPrefix.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/company/LongestCommonPrefix.js" working-dir="$PROJECT_DIR$/src/com/company">
+      <method v="2" />
+    </configuration>
+    <configuration name="ReverseWordsInAString.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/company/ReverseWordsInAString.js" working-dir="$PROJECT_DIR$/src/com/company">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.description" />
+        <item itemvalue="Jest.test 1" />
+        <item itemvalue="Jest.adds 1 + 2 to equal 3" />
+        <item itemvalue="Node.js.ReverseWordsInAString.js" />
+        <item itemvalue="Node.js.LongestCommonPrefix.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1db5141b-a2c5-4465-ba41-6854b2a16c1d" name="Changes" comment="" />
+      <changelist id="73c65a70-0f25-4cf7-97f2-9c66fbc0ea0e" name="igore" comment="" />
+      <created>1690301702837</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690301702837</updated>
+      <workItem from="1690301703861" duration="62000" />
+      <workItem from="1690301768758" duration="31000" />
+      <workItem from="1690301806051" duration="85000" />
+      <workItem from="1690301903725" duration="63000" />
+      <workItem from="1690301976944" duration="266000" />
+      <workItem from="1690302245956" duration="36000" />
+      <workItem from="1690302284310" duration="131000" />
+      <workItem from="1690302416724" duration="54000" />
+      <workItem from="1690302482431" duration="4514000" />
+      <workItem from="1690370205574" duration="4638000" />
+      <workItem from="1690461588461" duration="6010000" />
+      <workItem from="1690528916622" duration="325000" />
+      <workItem from="1690548158881" duration="6954000" />
+      <workItem from="1690642638169" duration="12550000" />
+      <workItem from="1690788936300" duration="57000" />
+      <workItem from="1690830791617" duration="6072000" />
+      <workItem from="1690985109291" duration="8442000" />
+      <workItem from="1691072366617" duration="3418000" />
+      <workItem from="1691324187336" duration="10045000" />
+      <workItem from="1691612118297" duration="361000" />
+      <workItem from="1691612501347" duration="419000" />
+      <workItem from="1691612924059" duration="3854000" />
+    </task>
+    <task id="LOCAL-00001" summary="add 4 tasks">
+      <created>1690306982055</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690306982055</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add JumpGame">
+      <created>1690374493949</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690374493949</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add JumpGame2">
+      <created>1690529224875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690529224875</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add H-Index">
+      <created>1690553216768</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690553216768</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add RandomizedSet">
+      <created>1690652766405</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690652766405</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix">
+      <created>1690831726830</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690831726830</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix">
+      <created>1690874692206</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690874692206</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add 2 tasks">
+      <created>1691072397591</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691072397591</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add roman to integer">
+      <created>1691324335677</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691324335677</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add integer to roman">
+      <created>1691335452041</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1691335452041</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add LengthOfLastWord">
+      <created>1691336516327</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691336516327</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add LengthOfLastWord">
+      <created>1691339272843</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1691339272843</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add 4 tasks" />
+    <MESSAGE value="add JumpGame" />
+    <MESSAGE value="add JumpGame2" />
+    <MESSAGE value="add H-Index" />
+    <MESSAGE value="add RandomizedSet" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="add 2 tasks" />
+    <MESSAGE value="add roman to integer" />
+    <MESSAGE value="add integer to roman" />
+    <MESSAGE value="add LengthOfLastWord" />
+    <option name="LAST_COMMIT_MESSAGE" value="add LengthOfLastWord" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
