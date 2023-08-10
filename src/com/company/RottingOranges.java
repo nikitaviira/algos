@@ -31,7 +31,7 @@ public class RottingOranges {
   }
 
   public static int orangesRotting(int[][] grid) {
-    Queue<int[]> rottenOranges = new LinkedList();
+    Queue<int[]> rottenOranges = new LinkedList<>();
     int minutes = 0;
 
     // Find all rotten oranges

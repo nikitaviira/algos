@@ -8,7 +8,7 @@ public class IsomorphicString {
   }
 
   public static boolean isIsomorphic(String s, String t) {
-    HashMap<Character, Character> dict = new HashMap();
+    HashMap<Character, Character> dict = new HashMap<>();
 
     for (int i = 0 ; i < s.length() ; i++) {
       char s_char = s.charAt(i);
