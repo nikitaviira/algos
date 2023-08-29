@@ -26,23 +26,15 @@ public class MiddleOfLinkedList {
   public static ListNode middleNode(ListNode head) {
     if (head == null) return null;
 
-    ListNode node = head;
-    int middle = findMiddle(head);
-    while (middle != 1) {
-      node = node.next;
-      middle--;
-    }
-    return node;
-  }
+    ListNode fast = head;
+    ListNode slow = head;
 
-  public static int findMiddle(ListNode head) {
-    int depth = 1;
-    ListNode node = head;
-    while (node.next != null) {
-      node = node.next;
-      depth++;
+    while (fast != null && fast.next != null) {
+      slow = slow.next;
+      fast = fast.next.next;
     }
-    return (depth / 2) + 1;
+
+    return slow;
   }
 
   public static class ListNode {
