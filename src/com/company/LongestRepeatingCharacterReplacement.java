@@ -22,29 +22,29 @@ public class LongestRepeatingCharacterReplacement {
   }
 
   public static int characterReplacement(String s, int k) {
-    if (s.length() == 0) return 0;
+    if (s.isEmpty()) return 0;
 
     Map<Character, Integer> freqMap = new HashMap<>();
+    int left = 0;
+    int right = 0;
     int maxLen = 0;
-    int leftPointer = 0;
-    int rightPointer = 0;
     int maxFreq = 0;
 
-    while (rightPointer < s.length()) {
-      freqMap.merge(s.charAt(rightPointer), 1, Integer::sum);
+    while (right < s.length()) {
+      freqMap.merge(s.charAt(right), 1, Integer::sum);
       // This is used to find the current biggest value in freqMap. For loop can be used instead.
-      maxFreq = Math.max(freqMap.get(s.charAt(rightPointer)), maxFreq);
+      maxFreq = Math.max(freqMap.get(s.charAt(right)), maxFreq);
       // Formula: (window size - max freq char > number of substitutions)
-      if (rightPointer - leftPointer + 1 - maxFreq > k) {
-        if (rightPointer - leftPointer > maxLen) maxLen = rightPointer - leftPointer;
-        freqMap.merge(s.charAt(leftPointer), -1, Integer::sum);
-        leftPointer++;
+      if (right - left + 1 - maxFreq > k) {
+        if (right - left > maxLen) maxLen = right - left;
+        freqMap.merge(s.charAt(left), -1, Integer::sum);
+        left++;
       }
 
-      if (rightPointer + 1 >= s.length()) break;
-      rightPointer++;
+      if (right + 1 >= s.length()) break;
+      right++;
     }
 
-    return Math.max(maxLen, rightPointer - leftPointer + 1);
+    return Math.max(maxLen, right - left + 1);
   }
 }
